@@ -1,0 +1,31 @@
+.nav_bar{
+    background-color: teal;
+}
+.nav_bar>div
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    width: 25%;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_bar a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.container{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(3,200px);
+    grid-gap: 20px;
+}
+
+.container>div{
+    border: 1px solid red;
+}

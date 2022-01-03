@@ -1,0 +1,33 @@
+.nav_bar{
+    background-color: teal;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_bar>div
+{
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    width: 25%;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav_bar a{
+    color: white;
+    text-decoration: none;
+}
+
+.cart_count{
+    color: white;
+}
+.container{
+    display: grid;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    grid-template-columns: repeat(4,25%);
+    grid-gap: 20px;
+}
+.container img{
+    width: 70%;
+}
